@@ -3,38 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio AL</title>
     <link rel="stylesheet" href="./css/style.css">
-    
+    <title>Document</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dekko&family=Farsan&family=Public+Sans:wght@200;400&family=Roboto:wght@300;700&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
 </head>
 <body class="grid-container">
-    <header class="header">
-        <nav class="navbar navbar navbar-expand-lg">
-            <a href=""><img src="./assets/AL.png" alt=""></a>
-            
-            <ul>
-                <li class="nav-li"><a href="./index.html">Inicio</a></li>
-                <li class="nav-li"><a href="./pages/acerca-de.html">Acerca de</a></li>
-                <li class="nav-li"><a href="./pages/experiencia.html">Experiencia</a></li>
-                <li class="nav-li"><a href="./pages/redes.html">Redes</a></li>
-                <li class="nav-li"><a href="./pages/contacto.html">Contacto</a></li>
+
+    <!-- HEADER-START -->
+
+    <header class="hero">
+
+        <nav class="nav container" id="nav">
+            <a href="#" class="nav-logo"><img src="./assets/AL.png" alt="Logo letras AL"></a>
+
+            <ul class="nav-links">
+
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="./pages/acerca-de.html" class="nav-link">Acerca de</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="./pages/experiencia.html" class="nav-link">Experiencia</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="./pages/redes.html" class="nav-link">Redes</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="./pages/contacto.html" class="nav-link">Contacto</a>
+                </li>
+
             </ul>
+
+            <a href="#nav" class="nav-hamburguer">
+                <img src="./assets/menu.svg" class="nav-icon" alt="">
+            </a>
+
+            <a href="#" class="nav-close">
+                <img src="./assets/close.svg" class="nav-icon" alt="">
+            </a>
         </nav>
+        
     </header>
-    <main class="main">
-        <div class="main-idx-div-1">
-            <h1>
-                ¿QUIEN SOY?
-            </h1>
-            <h2>
-                Hola, me llamo Alexis López...
-            </h2>
-            <p>
-                Actualmente vivo en CABA y trabajo como administrador de redes y telefonía para una universidad. 
-                    Además, presto servicios tercerizados como soporte técnico de nivel 1 para una empresa que opera un call center."
-            </p>
-        </div>
+
+    <!-- HEADER-END -->
+
+    <!-- MAIN-START -->
+    <main class="main-index">
+
+            <div class="main-container">
+                <p class="main-cont-p1">
+                    Hola
+                </p>
+    
+                <h1 class="main-cont-h1">
+                    Soy Alexis López
+                </h1>
+    
+                <p class="main-cont-p2">
+                    Actualmente vivo en CABA y trabajo como administrador de redes y telefonía para una universidad.
+                </p>
+
+                <div class="main-div-a">
+                    <a href="#" class="main-cont-a">Experiencia</a>
+                </div>
+            </div>
+
+            
+
     </main>
+    <!-- MAIN-END -->
+
+
+    <!-- FOOTER-START -->
+
     <footer class="footer">
         <div class="footer-div-1">
             <ul>
@@ -55,6 +106,7 @@
         </div>
     </footer>
 
+    <!-- FOOTER-END -->
 
 </body>
 </html>
