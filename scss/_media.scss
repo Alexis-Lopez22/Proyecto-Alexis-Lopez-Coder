@@ -1,0 +1,141 @@
+/* SASS-MEDIA-HEADER */
+
+@media screen and (min-width: 768px) {
+  .nav {
+    --state-close: scale(0);
+    --state-hamburguer: scale(0);
+    --state-menu: translate(0);
+  }
+
+  .nav:target {
+    --state-menu: translate(0);
+    --state-close: scale(0);
+    --state-hamburguer: scale(0);
+  }
+
+  .nav-links {
+      padding: 0;
+      background-color: unset;
+      position: unset;
+
+      gap: 1.5em;
+      grid-auto-flow: column;
+
+      transform: unset;
+
+      grid-column: -2 / -1;
+      grid-row: 1 / 2;
+  }
+
+  .nav-link {
+      font-size: 1rem;
+      letter-spacing: none;
+  }
+}
+
+/* SASS-MEDIA-HEADER */
+
+
+/* SASS-MEDIA-FOOTER */
+
+@media (max-width: 1250px) {
+  .footer {
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .redes {
+    width: 25px;
+  }
+
+  .footer .footer-div-1 ul {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 361px) {
+  .footer .footer-div-1 ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+
+    li {
+      margin: 2px 10px;
+      padding: 4px;
+      border-radius: 15px;
+      background-color: #F9F7FA;
+      box-shadow: 3px 3px 4px #CFD1E0;
+    }
+  }
+}
+
+/* SASS-MEDIA-FOOTER */
+
+/* SASS-MEDIA-MAIN-ACD */
+
+@media (min-width: 768px) {
+  .div-img-acd {
+    a {
+      img {
+        width: 300px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+
+/* SASS-MEDIA-MAIN-ACD */
+
+
+
+
+/* SASS-MEDIA-MAIN-EXP */
+
+@media (min-width: 768px) {
+
+  .main-exp-div-2 {
+      flex-direction: row;
+  }
+}
+
+@media (min-width:1280px) {
+
+  .main-exp-div-2 {
+      justify-content:space-around;
+  }
+  
+  .div-img-exp{
+      width: 250PX;
+      height: 250px;
+  }
+
+}
+
+/* SASS-MEDIA-MAIN-EXP */
+
+
+
+
+/* SASS-MEDIA-MAIN-REDES */
+
+@media (min-width: 768px) {
+
+
+  .cont-div-redes-icon {
+      gap: 140px;
+  }
+  
+  .div-redes-2 iframe{
+      width: 400px;
+      height: 400px;
+  }
+  
+  .redes-r {
+      width: 55px;
+  }
+  
+  }
+
+/* SASS-MEDIA-MAIN-REDES */
