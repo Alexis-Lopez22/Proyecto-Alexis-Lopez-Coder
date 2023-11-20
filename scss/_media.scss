@@ -1,35 +1,11 @@
 /* SASS-MEDIA-HEADER */
 
-@media screen and (min-width: 768px) {
-  .nav {
-    --state-close: scale(0);
-    --state-hamburguer: scale(0);
-    --state-menu: translate(0);
-  }
-
-  .nav:target {
-    --state-menu: translate(0);
-    --state-close: scale(0);
-    --state-hamburguer: scale(0);
-  }
-
-  .nav-links {
-      padding: 0;
-      background-color: unset;
-      position: unset;
-
-      gap: 1.5em;
-      grid-auto-flow: column;
-
-      transform: unset;
-
-      grid-column: -2 / -1;
-      grid-row: 1 / 2;
-  }
-
-  .nav-link {
-      font-size: 1rem;
-      letter-spacing: none;
+@media screen and (max-width: 768px) {
+  .nav-bootstrap {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }
 
@@ -85,9 +61,7 @@
   }
 }
 
-
 /* SASS-MEDIA-MAIN-ACD */
-
 
 
 
@@ -114,7 +88,6 @@
 }
 
 /* SASS-MEDIA-MAIN-EXP */
-
 
 
 
