@@ -18,13 +18,14 @@
             list-style: none;
             font-size: 20px;
             li {
-                margin: 5px 15px;
-                padding: 5px;
+                margin: 5px 12px;
+                padding: 3px;
                 border-radius: 15px;
-                background-color: #F9F7FA;
-                box-shadow: 3px 3px 4px #CFD1E0;
+                background-color: $colorBaclgroundIconosF;
+                box-shadow: 1px 1px 4px #ffffffb6;
+                transition: 1s;
                 &:hover {
-                    box-shadow: 2px 2px 6px #eff0f8;
+                    box-shadow: 2px 3px 6px #eff0f8;
                 }
                 a{
                     text-decoration: none;
@@ -33,6 +34,15 @@
             }
         }
     }
+    .footer-div-2 {
+        transition: 1s;
+        padding: 2px;
+        &:hover {
+            transform: scale(1.1, 1.1);
+            transition: 1s;
+        }
+    }
+
     .footer-div-3 {
         display: flex;
         align-items: center;
@@ -44,8 +54,14 @@
                 display: flex;
                 align-items: center;
                 max-width: 100%;
-                margin: 0 auto;
-                width: 45px;
+                width: 40px;
+                border-radius: 50%;
+                box-shadow: 1px 1px 6px #ffffff7a;
+                transition: 1s;
+
+                &:hover {
+                    box-shadow: 0 0 8px 5px #7880eec5;
+                }
             }
         }
     }
